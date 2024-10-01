@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: linear-gradient(to right, #BAA2E3, #567DE3)
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(189, 138, 185, 0.755);
+    padding: 20px 0;
+    /* transition: background-color 0.3s ease; */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.1s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+    font-size: 28px;
+
+}
+
+section:not(#home) {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home {
+    /* background-color: #4A90E2; */
+    background-image: url(https://www.generalassembly.my/media/1oqlr3sz/uxd_heroimage.jpg?width=2882&quality=85&rnd=133112251547300000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: purple;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+    width: 400px;
+    height: 300px;
+    /* object-fit: cover; */
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.content .text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.content .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: lightgray;
+}
+
+.content .text p{
+    font-size: 1.1em;
+    color: lightsteelblue;
+}
+
+#services{
+    background-color: cadetblue;
+}
+
+#about{
+    background-color: cadetblue;
+}
+
+#contact {
+    background-color: cadetblue;
+}
+
+.cta-button {
+    margin-top: 30px;
+    background-color: rgb(144, 120, 167);
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(189, 138, 185, 0.755);
+    transition: background-color 1s ease, transform 1s ease;
+}
+.cta-button:hover{
+    background-color: darkorchid;
+}
